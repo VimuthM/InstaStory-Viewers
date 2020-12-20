@@ -8,11 +8,6 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 def passencrypt():
-    new = ''
-    word = ';=<;=>4[Vok|x'
-    for i in range(len(word)):
-        new = new + chr( ord(word[i]) - 10 )
-    return new
 
 nusnet = 'vimuthmendis@gmail.com'
 password = passencrypt()
